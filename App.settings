@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "C8Sp",
+    "Name": "Database_ConnectionString",
+    "Type": "Compiled:String",
+    "Secret": true
+  }
+]
