@@ -1,0 +1,22 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "gvie",
+      "Properties": [
+        {
+          "Id": "FilePath",
+          "Name": "FilePath",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "FileHandle",
+          "Name": "FileHandle",
+          "Type": "Resource:Twenty57.Linx.Plugins.File.Shared.Common.FileReadWrite.ITextFileHandle, Twenty57.Linx.Plugins.File.Shared, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

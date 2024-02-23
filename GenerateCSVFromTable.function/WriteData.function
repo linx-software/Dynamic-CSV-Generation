@@ -1,0 +1,28 @@
+{
+  "Properties": [
+    {
+      "Id": "Contents",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetCSVData.ForEachRow.Data + $.System.NewLine",
+        "CompiledExpression": "={1}+{0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "File path",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Shared.Common.FileReadWrite.ITextFileHandle, Twenty57.Linx.Plugins.File.Shared, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "FileOpen.File.FileHandle",
+        "CompiledExpression": "={0}",
+        "Type": "Resource:Twenty57.Linx.Plugins.File.Shared.Common.FileReadWrite.ITextFileHandle, Twenty57.Linx.Plugins.File.Shared, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Compiled:String",
+  "Version": "1"
+}
