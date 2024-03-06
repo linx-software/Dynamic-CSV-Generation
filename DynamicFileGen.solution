@@ -12,6 +12,6 @@
     "twenty57.linx.solutiondependencies.types, 1.3.2"
   ],
   "Items": [
-    "GenerateCSV_FromTable.function"
+    "GenerateCSVFromTable.function"
   ]
 }
